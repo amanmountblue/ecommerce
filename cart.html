@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="">
+	<meta name="author" content="Cart">
+	<base href="">
+	<title>Cart</title>
+
+	<!-- Bootstrap core CSS -->
+	<link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>	<div class="page-container">
+
+	<div id="top-nav" class="bg-light smaller-font-size text-muted">
+		<nav class="navbar-expand-md container px-3">
+		  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		  </button>
+
+		  <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+			<ul class="navbar-nav mr-auto">
+			  <li class="nav-item active">
+				<a class="nav-link text-muted" href="#"><i class="la la-heart"></i> <span class="hidden-xs hidden-sm hidden-md">Wish List (0)</span></a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link text-muted" href="cart.html"><i class="la la-shopping-cart"></i> <span class="hidden-xs hidden-sm hidden-md">Shopping Cart</span></a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link text-muted" href="checkout.html"><i class="la la-share"></i> <span class="hidden-xs hidden-sm hidden-md">Checkout</span></a>
+			  </li>
+			</ul>
+		  </div>
+		  
+		</nav>
+	</div>		
+
+	<header class="container mt-5">
+		
+	  <div class="row">
+		  
+		<div class="col-md-3">
+			<a href="index.html" class="logo">
+				<h1 class="text-dark"><i class="text-secondary la la-plug"></i><span>gamer<span class="text-secondary">s.</span></span></h1>
+				<small class="text-dark">paradise for gamer</small>
+				
+			</a>
+		</div>
+
+		<div class="col-md-5">
+		   
+		   <form class="">
+	
+				<div class="input-group input-group-lg mb-3" id="search-box" data-component-category>
+				  <input type="text" class="form-control default-font-size" placeholder="Search product" aria-label="Search product">
+
+				  
+				  <div class="input-group-append">
+					  <button class="btn btn-primary" type="button"><i class="la la-search"></i></button>
+				  </div>
+				</div>
+			</form>
+			
+		</div>
+
+
+	  
+	  </div>
+
+	
+	  <nav class="navbar navbar-light bg-white  rounded navbar-expand-md mt-4">
+		<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#containerNavbar" aria-controls="containerNavbar" aria-expanded="false" aria-label="Toggle navigation">
+		  <span class="navbar-toggler-icon"></span>
+		</button>
+	   
+
+		<div class="collapse navbar-collapse" id="containerNavbar">
+		  <ul class="navbar-nav mr-auto">
+
+
+
+
+			<li class="nav-item active">
+			  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+			</li>
+			</li>
+
+			
+			<li class="nav-item">
+			   <a class="nav-link" href="cart.html">Cart</a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="checkout.html">Checkout</a>
+			  </li>
+		  </ul>
+		</div>
+	  </nav>
+
+
+	</header>
+</div>
+    <div class="content">
+    
+		<div class="container">
+			<div class="thickline"></div>
+		</div>
+    
+    	<nav class="breadcrumb container">
+		  <a class="breadcrumb-item" href="#">Home</a>
+		  <a class="breadcrumb-item" href="#">Categories</a>
+		  <span class="breadcrumb-item active">PS 5</span>
+		</nav>
+
+		<div class="container">
+		
+		
+			<div class="row">
+					<div class="col-12">
+						<h3>Cart</h3>
+				<form action="" method="post" enctype="multipart/form-data">
+					<div class="table-responsive">
+						<table class="table table-bordered" data-cart>
+							<thead>
+								<tr>
+									<td class="text-center">Image</td>
+									<td class="text-left">Product Name</td>
+									<td class="text-left">Company</td>
+									<td class="text-left">Quantity</td>
+									<td class="text-right">Unit Price</td>
+									<td class="text-right">Total</td>
+								</tr>
+							</thead>
+							<tbody>
+								
+								
+								<tr data-product>
+									<td class="text-center">
+										<a href="#" data-url>
+											<img src="img/day.jpg" alt="iPhone" title="iPhone" data-img>
+										</a>
+									</td>
+									<td class="text-left"><a href="#" data-name>Days Gone</a>
+									</td>
+									<td class="text-left">Sony</td>
+									<td class="text-left">
+										<div class="input-group btn-block" style="max-width: 200px;">
+											<input type="text" name="quantity[YToxOntzOjEwOiJwcm9kdWN0X2lkIjtpOjQwO30=]" value="2" size="1" class="form-control">
+										</div>
+									</td>
+									<td class="text-right">Rs 5000</td>
+									<td class="text-right">Rs 10000</td>
+								</tr>
+								
+								
+								<tr>
+									<td class="text-center">
+										<a href="#"><img src="img/faar.jpg" alt="MacBook" title="MacBook">
+										</a>
+									</td>
+									<td class="text-left"><a href="#">Far Cry 6</a>
+										<br>
+									</td>
+									<td class="text-left">Ubisoft</td>
+									<td class="text-left">
+										<div class="input-group btn-block" style="max-width: 200px;">
+											<input type="text" name="quantity" value="3" size="1" class="form-control">
+										</div>
+									</td>
+									<td class="text-right">Rs 6000</td>
+									<td class="text-right">Rs 18000</td>
+								</tr>
+								
+							</tbody>
+						</table>
+					</div>
+				</form>
+
+					</div>
+			</div>
+
+
+    </div>
+    
+    </div>
+    
+    <footer class="bg-faded text-muted py-5 mt-5">
+		<div class="container">	
+			  <a href="#">Back to top</a>
+			</p>
+        </div>
+    </footer>
+    
+</div>    
+  </body>
+</html>
